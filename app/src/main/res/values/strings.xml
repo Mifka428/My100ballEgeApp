@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Помощник на сто баллов</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Помощник к 100 баллам</string>
+    <string name="nav_ege">Егэ</string>
+    <string name="nav_oge">Огэ</string>
+    <string name="nav_teoria_math">Теория по математике</string>
+    <string name="nav_header_subtitle">Готовся каждый день!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+    <string name="menu_home">Главная</string>
+    <string name="menu_teoria">Теория</string>
+    <string name="menu_practic">Практика</string>
+    <string name="menu_generator">Генератор заданий</string>
+    <string name="menu_generator_tema">Выбор задания</string>
+    <string name="menu_information">О приложении</string>
+    <string name="menu_dostig">Достижения</string>
+    <string name="menu_infopredmet">Информация о предмете</string>
+    <string name="teoria_math">Теория по математика</string>
+    <string name="teoria_bio">Теория по биологии</string>
+    <string name="teoria_fis">Теория по физике</string>
+    <string name="teoria_obsestvo">Теория по обществознанию</string>
+    <string name="teoria_him">Теория по химии</string>
+    <string name="teoria_rus">Теория по русскому</string>
+    <string name="resultat">Результат</string>
+    <string name="variant">Система вариантов</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
