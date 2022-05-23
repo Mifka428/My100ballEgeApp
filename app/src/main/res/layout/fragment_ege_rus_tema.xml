@@ -25,35 +25,39 @@
                     android:layout_height="wrap_content"
                     android:gravity="left"
                     android:paddingLeft="10sp"
-                    android:text="Орфоэпические нормы" />
+                    android:text="Неизменяемые приставки" />
+
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left"
                     android:paddingLeft="10sp"
-                    android:text="Лексические нормы" />
+                    android:text="Правописание -Н- и -НН-" />
+
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left"
                     android:paddingLeft="10sp"
-                    android:text="Грамматические нормы" />
+                    android:text="Орфоэпические нормы" />
+
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left"
                     android:paddingLeft="10sp"
-                    android:text="Синонимы, антонимы, Омонимы" />
+                    android:text="Лексические нормы" />
+
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left"
                     android:paddingLeft="10sp"
-                    android:text="Правописание окончаний" />
+                    android:text="Морфологические нормы" />
 
             </LinearLayout>
         </ScrollView>

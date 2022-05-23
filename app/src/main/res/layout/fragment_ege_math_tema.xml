@@ -7,53 +7,61 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroud">
 
         <ScrollView
-            android:layout_width="match_parent" android:layout_height="match_parent"><LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:layout_height="match_parent">
 
-            <Button
-                android:id="@+id/button1"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
-                android:paddingLeft="10sp"
-                android:text="Производная и графики функции" />
+                android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="10sp"
+                    android:text="Единицы измерения" />
 
-                android:gravity="left"
-                android:paddingLeft="10sp"
-                android:text="Векторы" />
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Диаграммы"
-                android:gravity="left"
-                android:paddingLeft="10sp"/>
-            <Button
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="left"
+                    android:paddingLeft="10sp"
+                    android:text="Производные" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="10sp"
+                    android:text="Векторы" />
+
+                <Button
                     android:id="@+id/button4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Округление"
-                android:gravity="left"
-                android:paddingLeft="10sp"/>
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Операции с числами"
-                android:gravity="left"
-                android:paddingLeft="10sp"/>
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="10sp"
+                    android:text="Диаграмым" />
 
-        </LinearLayout></ScrollView>
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="10sp"
+                    android:text="Проценты" />
+
+            </LinearLayout>
+        </ScrollView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

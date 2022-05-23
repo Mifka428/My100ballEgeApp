@@ -25,7 +25,7 @@ public class VariantSystem {
         for(int i = 0; i <= 10; i++){
 
             otvet_members+=Integer.toString(i + 1) + ". " + otveti_member[i] + "\n";
-            otvet_system+="1" + " ." + "" + ReadFile.var_otvet[i] + "\n";
+            otvet_system+=Integer.toString(i + 1) + " ." + "" + ReadFile.var_otvet[i] + "\n";
             if(otveti_member[i].contains(ReadFile.var_otvet[i])){
                 result++;
             }

@@ -26,35 +26,30 @@
                     android:gravity="left"
                     android:paddingLeft="10sp"
                     android:text="Генетическая-информация-в-клетке-Хромосомный-набор-соматически-и-половые-клетки" />
+
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left"
                     android:paddingLeft="10sp"
-                    android:text="Общебиологические-закономерности-последовательность"
-                    />
+                    android:text="Энергетика" />
+
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Общебиологические-закономерности-последовательность  (Совокупность)"
                     android:gravity="left"
-                    android:paddingLeft="10sp"/>
+                    android:paddingLeft="10sp"
+                    android:text="Фотосинтез" />
+
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Скрещивание"
                     android:gravity="left"
-                    android:paddingLeft="10sp"/>
-                <Button
-                    android:id="@+id/button5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Термины-и-понятия-схема"
-                    android:gravity="left"
-                    android:paddingLeft="10sp"/>
+                    android:paddingLeft="10sp"
+                    android:text="Углеводы" />
 
 
             </LinearLayout>

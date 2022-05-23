@@ -28,14 +28,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
-                android:text="Человек и общество. Разные задачи" />
+                android:text="Экономическая наука" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="left"
-                android:text="Экономика" />
+                android:text="Экономические системы" />
 
             <ImageView
                 android:id="@+id/imageView12"

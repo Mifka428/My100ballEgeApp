@@ -7,7 +7,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroud">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -16,7 +17,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <Button
                     android:id="@+id/button1"
@@ -24,7 +25,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="left"
                     android:paddingLeft="10sp"
-                    android:text="Закон-Кулона-конденсатор-сила-тока-закон-Ома-закон-Джоуля-–-Ленца" />
+                    android:text="Удельное сопротивление" />
+
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
@@ -32,6 +34,7 @@
                     android:gravity="left"
                     android:paddingLeft="10sp"
                     android:text="Закон-сохранения-импульса-кинетическая-и-потенциальные-энергии-мощность-силы" />
+
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="match_parent"
@@ -39,13 +42,15 @@
                     android:gravity="left"
                     android:paddingLeft="10sp"
                     android:text="Законы-Ньютона-закон-всемирного-тяготения-закон-Гука-сила-трения" />
+
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left"
                     android:paddingLeft="10sp"
-                    android:text="МКТ-термодинамика-изменение-физических-величин-в-процессах-установление-соответствия" />
+                    android:text="Закон Гей-Люссака" />
+
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="match_parent"
@@ -53,20 +58,23 @@
                     android:gravity="left"
                     android:paddingLeft="10sp"
                     android:text="МКТ-термодинамика-изменение-физических-величин-в-процессах-установление-соответствия" />
+
                 <Button
                     android:id="@+id/button6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left"
                     android:paddingLeft="10sp"
-                    android:text="МКТ-термодинамика-изменение-физических-величин-в-процессах-установление-соответствия" />
+                    android:text="Закон Бойля-Мариотта" />
+
                 <Button
                     android:id="@+id/button7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left"
                     android:paddingLeft="10sp"
-                    android:text="Равновесие-закон-Паскаля-сила-Архимеда-математический-и-пружинный-маятники-механические-волны-звук" />
+                    android:text="Выталкивающая сила" />
+
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="match_parent"
@@ -74,6 +82,7 @@
                     android:gravity="left"
                     android:paddingLeft="10sp"
                     android:text="Равновесие-закон-Паскаля-сила-Архимеда-математический-и-пружинный-маятники-механические-волны-звук" />
+
                 <Button
                     android:id="@+id/button9"
                     android:layout_width="match_parent"
@@ -81,6 +90,7 @@
                     android:gravity="left"
                     android:paddingLeft="10sp"
                     android:text="Фотоны-линейчатые-спектры-закон-радиоактивного-распада" />
+
                 <Button
                     android:id="@+id/button10"
                     android:layout_width="match_parent"

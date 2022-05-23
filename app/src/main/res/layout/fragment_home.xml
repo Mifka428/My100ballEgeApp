@@ -12,17 +12,18 @@
         android:id="@+id/buttonNavPractik"
         android:layout_width="120sp"
         android:layout_height="80sp"
-        android:layout_marginTop="50sp"
-        android:layout_marginEnd="50sp"
+        android:layout_marginTop="48dp"
         android:text="Практика"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
-        android:layout_height="400sp"
-        android:src="@drawable/student"
+        android:layout_height="400dp"
+        android:src="@drawable/teoria_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -31,9 +32,10 @@
         android:id="@+id/buttonNavTeoria"
         android:layout_width="120sp"
         android:layout_height="80sp"
-        android:layout_marginStart="40sp"
-        android:layout_marginTop="50sp"
+        android:layout_marginTop="48dp"
         android:text="Теория"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -57,16 +59,16 @@
         android:text="С чего начнем готовиться к ЕГЭ?"
         android:textColor="@color/white"
         android:textSize="30sp"
+        android:textAlignment="center"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="80sp"
-        android:layout_height="80sp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:src="@drawable/teoria_1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonNavTeoria" />

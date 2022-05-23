@@ -25,50 +25,55 @@
 
         <Button
             android:id="@+id/buttonRus"
-            android:layout_width="105sp"
+            android:layout_width="130sp"
             android:layout_height="60sp"
             android:layout_marginStart="8sp"
-            android:layout_marginTop="28sp"
+            android:layout_marginTop="30dp"
             android:text="Русский"
+            android:textSize="12sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <Button
             android:id="@+id/buttonObsestvo"
-            android:layout_width="110sp"
-            android:layout_height="0sp"
+            android:layout_width="130sp"
+            android:layout_height="60sp"
             android:layout_marginTop="30sp"
             android:layout_marginEnd="10sp"
             android:text="Обществознание"
+            android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonFis" />
 
         <Button
             android:id="@+id/buttonHim"
-            android:layout_width="105sp"
+            android:layout_width="130sp"
             android:layout_height="60sp"
             android:layout_marginStart="10sp"
-            android:layout_marginTop="28sp"
+            android:layout_marginTop="30dp"
             android:text="Химия"
+            android:textSize="12sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonRus" />
 
         <Button
             android:id="@+id/buttonFis"
-            android:layout_width="120sp"
+            android:layout_width="130sp"
             android:layout_height="60sp"
             android:layout_marginTop="30sp"
             android:layout_marginEnd="10sp"
             android:text="Физика"
+            android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <Button
             android:id="@+id/buttonMath"
-            android:layout_width="140sp"
+            android:layout_width="130sp"
             android:layout_height="60sp"
             android:layout_marginTop="30sp"
             android:text="Математика"
+            android:textSize="12sp"
             app:layout_constraintEnd_toStartOf="@+id/buttonFis"
             app:layout_constraintHorizontal_bias="0.487"
             app:layout_constraintStart_toEndOf="@+id/buttonRus"
@@ -76,10 +81,11 @@
 
         <Button
             android:id="@+id/buttonBio"
-            android:layout_width="140sp"
+            android:layout_width="130sp"
             android:layout_height="60sp"
             android:layout_marginTop="30sp"
             android:text="Биология"
+            android:textSize="12sp"
             app:layout_constraintEnd_toStartOf="@+id/buttonObsestvo"
             app:layout_constraintStart_toEndOf="@+id/buttonHim"
             app:layout_constraintTop_toBottomOf="@+id/buttonMath" />
@@ -87,7 +93,7 @@
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="wrap_content"
-            android:layout_height="500sp"
+            android:layout_height="500dp"
             android:src="@drawable/backgrout_1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

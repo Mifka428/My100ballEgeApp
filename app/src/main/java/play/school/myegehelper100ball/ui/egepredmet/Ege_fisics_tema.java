@@ -28,9 +28,6 @@ public class Ege_fisics_tema extends Fragment {
         button5 = (Button) view.findViewById(R.id.button5);
         button6 = (Button) view.findViewById(R.id.button6);
         button7 = (Button) view.findViewById(R.id.button7);
-        button8 = (Button) view.findViewById(R.id.button8);
-        button9 = (Button) view.findViewById(R.id.button9);
-        button10 = (Button) view.findViewById(R.id.button10);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,33 +88,6 @@ public class Ege_fisics_tema extends Fragment {
             public void onClick(View v) {
 
                 Teoria_slide.teoria_photo = "https://cdn.discordapp.com/attachments/976526357838315560/977402446739537930/fis_7.png";
-                NavigationActivity activity = (NavigationActivity) getActivity();
-                activity.nextFragment(R.id.teoria_slide);
-            }
-        });
-        button8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Teoria_slide.teoria_photo = "https://cdn.discordapp.com/attachments/976526422535471186/977396575343087667/bio_4.png";
-                NavigationActivity activity = (NavigationActivity) getActivity();
-                activity.nextFragment(R.id.teoria_slide);
-            }
-        });
-        button9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Teoria_slide.teoria_photo = "https://cdn.discordapp.com/attachments/976526357838315560/977402447565828146/fis_9.png";
-                NavigationActivity activity = (NavigationActivity) getActivity();
-                activity.nextFragment(R.id.teoria_slide);
-            }
-        });
-        button10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Teoria_slide.teoria_photo = "https://cdn.discordapp.com/attachments/976526357838315560/977402447800729630/fis_10.png";
                 NavigationActivity activity = (NavigationActivity) getActivity();
                 activity.nextFragment(R.id.teoria_slide);
             }

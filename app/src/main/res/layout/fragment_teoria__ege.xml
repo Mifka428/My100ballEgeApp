@@ -25,18 +25,18 @@
 
         <Button
             android:id="@+id/buttonRus"
-            android:layout_width="105sp"
+            android:layout_width="130sp"
             android:layout_height="60sp"
-            android:layout_marginStart="8sp"
-            android:layout_marginTop="28sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
             android:text="Русский"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <Button
             android:id="@+id/buttonObsestvo"
-            android:layout_width="110sp"
-            android:layout_height="0sp"
+            android:layout_width="130sp"
+            android:layout_height="60sp"
             android:layout_marginTop="30sp"
             android:layout_marginEnd="10sp"
             android:text="Обществознание"
@@ -45,17 +45,17 @@
 
         <Button
             android:id="@+id/buttonHim"
-            android:layout_width="105sp"
+            android:layout_width="130sp"
             android:layout_height="60sp"
             android:layout_marginStart="10sp"
-            android:layout_marginTop="28sp"
+            android:layout_marginTop="30dp"
             android:text="Химия"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonRus" />
 
         <Button
             android:id="@+id/buttonFis"
-            android:layout_width="120sp"
+            android:layout_width="130sp"
             android:layout_height="60sp"
             android:layout_marginTop="30sp"
             android:layout_marginEnd="10sp"
@@ -65,7 +65,7 @@
 
         <Button
             android:id="@+id/buttonMath"
-            android:layout_width="140sp"
+            android:layout_width="130sp"
             android:layout_height="60sp"
             android:layout_marginTop="30sp"
             android:text="Математика"
@@ -76,7 +76,7 @@
 
         <Button
             android:id="@+id/buttonBio"
-            android:layout_width="140sp"
+            android:layout_width="130sp"
             android:layout_height="60sp"
             android:layout_marginTop="30sp"
             android:text="Биология"
@@ -87,7 +87,7 @@
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="wrap_content"
-            android:layout_height="500sp"
+            android:layout_height="500dp"
             android:src="@drawable/backgrout_1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
